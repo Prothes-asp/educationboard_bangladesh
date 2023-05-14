@@ -1,0 +1,272 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color:#dddddd !important;
+}
+
+/* For Float Property */
+.floatproperty{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+/*In put box*/
+.Globalbox{
+    font-size: 14px;
+    color: #000000;
+    background-color: #F4F0F2;
+    border: 1px solid #999;
+    border-radius:4px;
+    height:26px;
+    width: 205px;
+}
+
+
+/* Button FOr*/
+.globalBtn{
+    color: #000000;
+    background-color: #F4F0F2;
+    border: 1px solid #999;
+}
+
+
+
+
+.maindiv{
+    width:645px;
+    height:550px;
+    background-color:#ffffff;
+    margin: auto;
+    margin-top: 9px;
+    padding:6px 7px;
+    border-radius: 6px;
+}
+
+.maindiv .headerdiv{
+    height: 122px;
+    width: 630px;
+}
+
+
+
+.maindiv .headerdiv .logodiv{
+    height: 122px;
+    width: 145px;
+    background-color:#eeeeee;
+    border-radius:6px 0px 0px 6px;
+    float: left;
+}
+
+.maindiv .headerdiv .logodiv img{
+    display: block;
+    margin: auto;
+    margin-top:14px;
+}
+
+.maindiv .headerdiv .bannerdiv{
+    height: 122px;
+    width: 480px;
+    float: right;
+}
+
+
+.headerdiv .bannerdiv .bcd1{
+    height:42px;
+    border-bottom:0.1px solid #ffffff;
+}
+.headerdiv .bannerdiv .bcd2{
+    height:55px;
+    background-color: #007814;
+    border-bottom:0.1px solid #ffffff;
+}
+.headerdiv .bannerdiv .bcd3{
+    height:24px;
+}
+
+.headerdiv .bannerdiv .bcd3 img{
+    display: block;
+    width: 100%;
+    height:100%;
+}
+
+.headerdiv .bannerdiv .bcd3 a{
+    display: block;
+    margin:-22px 0px 0px 270px;
+    font-size:13px;
+    text-decoration: none;
+    color: white;
+}
+.headerdiv .bannerdiv .bcd3 a:hover{
+    color: #95e17d;
+}
+
+.headerdiv .bannerdiv .bcd1 .Inbcd1{
+    height: 100%;
+    width: 50%;
+    background-color:#007814;
+    float: left;
+}
+.headerdiv .bannerdiv .bcd1 .Inbcd2{
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+.headerdiv .bannerdiv .bcd1 .Inbcd2 img{
+    display: block;
+    width:100%;
+    height: 100%;
+}
+
+.maindiv .headerdiv .bannerdiv h1{
+    font-size: 19px;
+    margin:0px 0px 0px 5px;
+}
+.maindiv .headerdiv .bannerdiv .bcd1{
+    color: #95e17d;
+}
+.maindiv .headerdiv .bannerdiv .bcd2{
+    color: #ffffff;
+}
+
+
+
+
+
+/* Body Div*/
+.maindiv .bodydiv{
+    height:300px;
+    width:458px;
+    margin:20px auto;
+    border:1px solid #6c6c6c;
+    box-shadow:0px 0px 2px inset;
+}
+
+
+
+
+
+.bodydiv ul{
+    list-style: none;
+    margin-top:0px;
+    margin-bottom: 0px;
+    font-size:14px;
+}
+
+
+.bodydiv ul li input{
+    border-radius: 4px;
+}
+
+
+.bodydiv .FromSpace{
+    padding:30px 44px;
+}
+
+.bodydiv ul .EducaList{
+    margin-left: 2px;
+}
+
+.bodydiv ul .Yearlist{
+    margin-left:6px;
+}
+
+.bodydiv ul .Boardlist {
+    margin-left:42.7px;
+}
+.bodydiv ul .RollList{
+    margin-left:8.5px;
+}
+.bodydiv ul .reglist{
+    margin-left:9px;
+}
+.bodydiv ul .numbrList{
+    margin-left:8px;
+}
+
+.bodydiv ul .Resetbtn{
+    margin-left:191px;
+}
+.bodydiv ul .Submitbtn{
+    margin-left:6px;
+}
+
+.bodydiv ul .Resetbtn input{
+    padding:0px 9px;
+    font-size:14px;
+}
+.bodydiv ul .Submitbtn input{
+    padding:0px 5px;
+    font-size: 14px;
+}
+
+
+.Horizontal{
+    height:7px;
+    background-color: #86c775;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Footer{
+    height:70px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background-color: #f2f2f2;
+    border-radius:0px 0px 6px 6px;
+}
+
+.Footer .ftr1{
+    width:50%;
+    height: 100%;
+    float: left;
+}
+.Footer .ftr2{
+    width:50%;
+    height: 100%;
+    float: right;
+}
+
+.Footer .ftr1 p{
+    font-size: 11px;
+    color: #666666;
+    margin-top: 28px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+.Footer .ftr2 p{
+    font-size: 11px;
+    color: #666666;
+    margin-top: 28px;
+    margin-bottom: 0px;
+    margin-left: 145px;
+    vertical-align: middle; 
+}
+
+.Footer .ftr2 img{
+    margin-top:14px;
+    width: 83px;
+    right: 0px;
+    height: 44px;
+    margin-left: 15px;
+}
+
+
+
